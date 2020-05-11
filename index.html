@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kawaspace UI Design Task</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <center>
+    <h1 id="h1">Country Name</h1>
+    <div id="main-container">
+      <div id="info-container">
+        <input type="text" list="countries" id="ct" required>
+        <datalist id="countries"></datalist>
+
+        <button id="b1" onclick="sub()">Search</button><br/><br/>
+        
+        <div id="flag-container" style="display: none;">
+          <img src="" alt="">
+        </div>
+        
+        <div id="blog-container" style="display: none;">
+        <p>Capital: <span id="capital"></span></p>
+        <p>Region: <span id="region"></span></p>
+        <p>Dialing Code: <span id="dialing-code"></span></p>
+        <p>Timezones: <span id="timezones"></span></p>
+        <p>Population: <span id="population"></span></p>
+        <p>Currencies: <span id="currencies"></span></p>
+        </div>
+        </center>
+      
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

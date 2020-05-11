@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #333;
+  background-image: url("bg.jpg");
+  padding-top: 70px;
+}
+h1 {
+  text-align: center;
+  color:rgb(184, 6, 6);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  text-shadow: black;
+}
+#main-container {
+  margin: 30px auto;
+  padding: 0;
+}
+#flag-container {
+  height: 200px;
+  width: 300px;
+  background-color: transparent;
+}
+#flag-container img {
+  display: block;
+  width: 98%;
+  height: 98%;
+}
+#info-container select {
+  display: block;
+  margin: 20px auto;
+  padding: 5px;
+  min-width: 100%;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  text-align-last: center;
+}
+#info-container p {
+  padding: 0 10px;
+  font-weight: 600;
+  color: white;
+}
+#info-container p span {
+  font-weight: normal;
+  color: rgb(163, 255, 15);
+}
+
+#blog-container{
+  background-color: rgba(255, 255, 255, 0.13);
+}
+
+#ct{
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgba(163, 255, 15, 0.486);
+  color: white;
+  padding-left: 5px;
+  border-color: black;
+}
+
+#ct:hover{
+  background-color: rgba(3, 151, 236, 0.637);
+}
+
+#b1{
+  background-color: green;
+  border-color: green;
+  border-radius: 10px;
+  color: white;
+  height: 30px;
+  width: 60px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#b1:hover{
+  background-color: rgb(0, 163, 8);
+  color: black;
+}
+
+#h1{
+  background-color: rgba(255, 255, 255, 0.253);
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  body { font-size: 12px; }
+  #main-container { width: 342px; }  
+  #flag-container { height: 172px; }  
+  #info-container select { font-size: 12px; font-weight: 600; }
+}
